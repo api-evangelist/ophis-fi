@@ -1,4 +1,4 @@
-# ophis-fi
+# Ophis
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ophis-fi is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ophis.fi/
+Ophis is a multichain DEX aggregator offering MEV-protected swaps for agents and tokenized assets. It enables users to trade stablecoins and tokenized stocks securely through its intent‑based platform, providing SDKs, APIs, and a marketplace for private trading. The service supports cross‑chain transfers, AI‑agent integrations, and offers comprehensive documentation, pricing details, and a developer portal for building on the Ophis ecosystem.
+
+**Areas:** Company · DEX · MEV · Multichain · Swaps
+
+## Ophis on APIs.io
+
+Everything profiled for Ophis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ophis-fi/](https://apis.io/providers/ophis-fi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ophis Intent API](https://apis.io/apis/ophis-fi/ophis-fi-intent-api/) — The Intent API from Ophis — 1 operation(s) for intent.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ophis Agentic Access](https://apis.io/agentic-access/ophis-fi/ophis-fi-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [IntentRequest](https://apis.io/schemas/ophis-fi/ophis-fi-intent-request/)
+- [IntentSuccess](https://apis.io/schemas/ophis-fi/ophis-fi-intent-success/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ophis Fi Context](https://apis.io/jsonld/ophis-fi/ophis-fi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ophis API Rules](https://apis.io/rules/ophis-fi/ophis-fi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ophis Domain Security](https://apis.io/security/ophis-fi/ophis-fi-domain-security/)
+- [Ophis Vulnerability Disclosure](https://apis.io/security/ophis-fi/ophis-fi-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ophis.fi/)
+- [Documentation](https://docs.ophis.fi/)
+- [Getting started](https://docs.ophis.fi/getting-started)
+- [API reference](https://ophis.fi/openapi.json)
+- [Pricing](https://ophis.fi/pricing/)
+- [Support](https://ophis.fi/security/)
+- [Blog](https://ophis.fi/blog/)
+- [Security](https://github.com/ophis-fi/ophis/blob/main/SECURITY.md)
+- [GitHub](https://github.com/ophis-fi)
+- [Status](https://docs.ophis.fi/status)
+
+## API Evangelist rating
+
+**Kin Score 47.7** — developing · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 59.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 8.5 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ophis-fi/](https://apis.io/providers/ophis-fi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ophis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ophis-fi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
